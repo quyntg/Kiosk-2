@@ -195,7 +195,7 @@ function showModalConfirm(name, id) {
 
 async function printWithPrintNode() {
     const apiKey = "cmIEqzm5rM-hHvKxK2v_afDZ2XzGxXjr9s08HkWL9v0"; // thay bằng API Key bạn lấy từ PrintNode
-    const printerId = 74718076; // thay bằng ID của máy in (lấy từ PrintNode Dashboard)
+    const printerId = 74749376; // thay bằng ID của máy in (lấy từ PrintNode Dashboard)
 
     const body = {
         printerId: printerId,
@@ -241,7 +241,7 @@ function buildTicket(counter) {
     let parts = [
         '\x1B\x61\x01', // Căn giữa
         '\x1D\x21\x01', // Font nhỏ
-        removeVietnameseTones('UY BAN NHAN DAN XA TAY DO') + '\n',
+        removeVietnameseTones('UY BAN NHAN DAN XA VINH LOC') + '\n',
         removeVietnameseTones('THANH HOA') + '\n',
         '------------------------------------------\n',
         removeVietnameseTones('PHIEU SO THU TU') + '\n',
